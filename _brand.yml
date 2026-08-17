@@ -9,6 +9,7 @@ color:
     mint: "#D9F0EC"
     paper: "#F7F9FA"
     gold: "#B9832F"
+    code: "#8A4F13"
   primary: ocean
   foreground: ink
   background: "#FFFFFF"

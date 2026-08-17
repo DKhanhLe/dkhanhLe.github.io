@@ -2,6 +2,8 @@
 title: "Choice Modelling Toolkit"
 description: "A reproducible template for preparing, estimating, and reporting discrete choice models."
 date: 2026-08-17
+image: thumbnail.svg
+image-alt: "Schematic of a discrete choice task: three alternatives described by shared attributes, with one selected."
 categories:
   - R
   - Apollo
@@ -24,6 +26,19 @@ How can a choice experiment workflow be structured so that data cleaning, model 
 - Estimate baseline and heterogeneity-focused models.
 - Report model fit, parameter signs, uncertainty, and willingness-to-pay measures.
 
-## Next Steps
+## Reporting
 
-Replace this placeholder with a specific project, figures, model output, and repository links.
+Each estimated model is reported with the same set of diagnostics so that
+specifications stay comparable:
+
+- Sample and choice-task counts, and any exclusions applied.
+- Log-likelihood, number of parameters, and information criteria.
+- Parameter estimates with standard errors, and the expected sign of each.
+- Willingness-to-pay measures derived from the cost coefficient, with
+  uncertainty carried through rather than reported as point estimates.
+
+## Status
+
+This page documents the workflow itself rather than a completed study. Code and
+estimation output are not yet public; links to a repository and a worked example
+will be added here as individual projects reach a shareable state.

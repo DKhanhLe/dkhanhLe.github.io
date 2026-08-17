@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-labelledby="rrw-title">
+  <title id="rrw-title">Schematic of a reproducible analysis pipeline: raw data feeding an analysis script, which produces a rendered report</title>
+  <rect width="400" height="225" fill="#1F2933"/>
+
+  <defs>
+    <marker id="rrw-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0.5L9 5L0 9.5z" fill="#D9F0EC"/>
+    </marker>
+  </defs>
+
+  <!-- raw data store -->
+  <g>
+    <rect x="26" y="76" width="82" height="74" rx="8" fill="#D9F0EC"/>
+    <ellipse cx="67" cy="88" rx="27" ry="8" fill="#1B6A6F" opacity="0.28"/>
+    <rect x="44" y="106" width="46" height="6" rx="3" fill="#1F2933" opacity="0.28"/>
+    <rect x="44" y="120" width="34" height="6" rx="3" fill="#1F2933" opacity="0.28"/>
+    <rect x="44" y="134" width="42" height="6" rx="3" fill="#1F2933" opacity="0.28"/>
+  </g>
+
+  <line x1="112" y1="113" x2="144" y2="113" stroke="#D9F0EC" stroke-width="2.5" marker-end="url(#rrw-arrow)"/>
+
+  <!-- analysis script -->
+  <g>
+    <rect x="152" y="70" width="92" height="86" rx="8" fill="#1B6A6F" stroke="#D9F0EC" stroke-width="2"/>
+    <rect x="168" y="86" width="24" height="5" rx="2.5" fill="#D9F0EC" opacity="0.9"/>
+    <rect x="196" y="86" width="32" height="5" rx="2.5" fill="#D9F0EC" opacity="0.5"/>
+    <rect x="176" y="102" width="44" height="5" rx="2.5" fill="#D9F0EC" opacity="0.5"/>
+    <rect x="176" y="118" width="52" height="5" rx="2.5" fill="#D9F0EC" opacity="0.5"/>
+    <rect x="168" y="134" width="30" height="5" rx="2.5" fill="#D9F0EC" opacity="0.9"/>
+  </g>
+
+  <line x1="248" y1="113" x2="280" y2="113" stroke="#D9F0EC" stroke-width="2.5" marker-end="url(#rrw-arrow)"/>
+
+  <!-- rendered report -->
+  <g>
+    <path d="M288 62h56l22 22v79a6 6 0 01-6 6h-72a6 6 0 01-6-6V68a6 6 0 016-6z" fill="#F7F9FA"/>
+    <path d="M344 62l22 22h-22z" fill="#B9832F" opacity="0.55"/>
+    <rect x="300" y="100" width="50" height="6" rx="3" fill="#1F2933" opacity="0.25"/>
+    <rect x="300" y="115" width="38" height="6" rx="3" fill="#1F2933" opacity="0.25"/>
+    <rect x="300" y="130" width="46" height="6" rx="3" fill="#1F2933" opacity="0.25"/>
+    <rect x="300" y="145" width="28" height="6" rx="3" fill="#1B6A6F" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,6 +1,17 @@
-/* Palette comes from _brand.yml as --brand-* custom properties. */
+/* Palette comes from _brand.yml / _brand-dark.yml as --brand-* custom
+   properties, so anything referencing --brand-* is already scheme-aware.
+   The card tokens below have no brand equivalent, so Quarto's body.quarto-dark
+   class supplies the dark values. */
 :root {
-  --site-muted: #5d6978;
+  --site-card-bg: #ffffff;
+  --site-card-border: #dfe5ea;
+  --site-card-shadow: 0 10px 24px rgba(31, 41, 51, 0.06);
+}
+
+body.quarto-dark {
+  --site-card-bg: var(--brand-paper);
+  --site-card-border: #2c3944;
+  --site-card-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
 
 .navbar {
@@ -52,16 +63,16 @@ h3 {
 
 .hero-copy p {
   max-width: 760px;
-  color: var(--site-muted);
+  color: var(--bs-secondary-color);
   font-size: 1.1rem;
 }
 
 .hero-panel,
 .feature {
-  border: 1px solid #dfe5ea;
+  border: 1px solid var(--site-card-border);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 10px 24px rgba(31, 41, 51, 0.06);
+  background: var(--site-card-bg);
+  box-shadow: var(--site-card-shadow);
 }
 
 .hero-panel {
@@ -109,7 +120,7 @@ h3 {
 }
 
 code {
-  color: #8a4f13;
+  color: var(--brand-code);
 }
 
 img {

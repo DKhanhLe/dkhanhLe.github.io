@@ -1,0 +1,18 @@
+meta:
+  name: "Khanh Le Portfolio (dark)"
+
+# Dark counterpart to _brand.yml. Palette keys are deliberately identical so
+# that styles.css can reference --brand-* and pick up the right value in each
+# colour scheme without any per-scheme overrides of its own.
+color:
+  palette:
+    ink: "#E6EBF0"
+    ocean: "#63C4C9"
+    blue: "#7FB2F5"
+    mint: "#1E3A3C"
+    paper: "#1C262E"
+    gold: "#E0A458"
+    code: "#E0A458"
+  primary: ocean
+  foreground: ink
+  background: "#131A21"

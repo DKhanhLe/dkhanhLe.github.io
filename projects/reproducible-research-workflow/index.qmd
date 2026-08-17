@@ -2,6 +2,8 @@
 title: "Reproducible Research Workflow"
 description: "A Quarto-based structure for research notes, code, figures, and public-facing outputs."
 date: 2026-08-16
+image: thumbnail.svg
+image-alt: "Schematic of a reproducible analysis pipeline: raw data feeding an analysis script, which produces a rendered report."
 categories:
   - Quarto
   - R
@@ -20,6 +22,21 @@ This project outlines a practical structure for research analysis that keeps cod
 - Use Quarto documents for interpretation, figures, and tables.
 - Freeze expensive computations when publishing public outputs.
 
-## Next Steps
+## Project Layout
 
-Add a concrete repository link, example report, or methods note when the workflow is ready to share.
+The same directory structure is reused across projects so that a reader knows
+where to look without being told:
+
+- `data/raw/` — inputs exactly as received, never edited in place.
+- `data/derived/` — everything a script can regenerate, safe to delete.
+- `R/` or `src/` — analysis steps, each runnable from a clean session.
+- `reports/` — Quarto documents that read derived data and produce the writing.
+
+Anything under `data/derived/` and `reports/` is reproducible from the raw
+inputs plus the code, which makes the boundary between input and output explicit.
+
+## Status
+
+This page describes the structure rather than a specific analysis. A public
+example repository and a rendered sample report will be linked here once a
+project using this layout is ready to share.

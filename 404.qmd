@@ -1,0 +1,18 @@
+---
+title: "Page Not Found"
+description: "The page you requested does not exist."
+toc: false
+---
+
+The page you were looking for is not here. It may have been moved or renamed.
+
+Try one of these instead:
+
+- [Home](index.qmd)
+- [Research: Coastal Economics](research/coastal.qmd)
+- [Research: Choice Modelling](research/choice-models.qmd)
+- [Projects](projects.qmd)
+- [Blog](blog/index.qmd)
+- [About](about.qmd)
+
+Or use the search box in the navigation bar.
