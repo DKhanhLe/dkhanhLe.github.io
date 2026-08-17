@@ -1,15 +1,6 @@
+/* Palette comes from _brand.yml as --brand-* custom properties. */
 :root {
-  --site-ink: #1f2933;
   --site-muted: #5d6978;
-  --site-ocean: #1b6a6f;
-  --site-blue: #2f80ed;
-  --site-mint: #d9f0ec;
-  --site-paper: #f7f9fa;
-  --site-gold: #b9832f;
-}
-
-body {
-  color: var(--site-ink);
 }
 
 .navbar {
@@ -17,7 +8,7 @@ body {
 }
 
 .quarto-title-banner {
-  background: var(--site-paper);
+  background: var(--brand-paper);
 }
 
 h1,
@@ -25,10 +16,6 @@ h2,
 h3 {
   font-weight: 650;
   letter-spacing: 0;
-}
-
-a {
-  color: var(--site-ocean);
 }
 
 .hero {
@@ -52,7 +39,7 @@ a {
 }
 
 .hero-copy {
-  border-left: 6px solid var(--site-ocean);
+  border-left: 6px solid var(--brand-ocean);
   padding-left: 1.5rem;
 }
 
@@ -119,21 +106,6 @@ a {
 
 .about-summary h2 {
   margin-top: 0;
-}
-
-.btn-primary {
-  background: var(--site-ocean);
-  border-color: var(--site-ocean);
-}
-
-.btn-outline-primary {
-  color: var(--site-ocean);
-  border-color: var(--site-ocean);
-}
-
-.btn-outline-primary:hover {
-  background: var(--site-ocean);
-  border-color: var(--site-ocean);
 }
 
 code {

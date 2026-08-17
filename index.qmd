@@ -1,8 +1,10 @@
 ---
 title: "Khanh Le"
 subtitle: "Environmental economics, choice modelling, and applied data analysis"
+description: "Khanh Le works across environmental economics, discrete choice modelling, and reproducible data analysis. Research interests, technical projects, writing, and CV."
 image: images/khanh-le-canola.jpeg
 page-layout: full
+toc: false
 ---
 
 ::: {.hero}

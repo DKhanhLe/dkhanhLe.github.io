@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Profile, research interests, technical skills, and CV for Khanh Le."
 image: images/khanh-le-portrait.jpeg
 ---
 
