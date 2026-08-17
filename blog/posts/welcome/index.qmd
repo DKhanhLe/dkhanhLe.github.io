@@ -1,0 +1,20 @@
+---
+title: "Welcome"
+description: "A short note on the purpose of this website."
+date: 2026-08-17
+categories:
+  - Research Methods
+  - Reproducible Research
+---
+
+## Introduction
+
+This website is a home for my research, technical projects, notes, and CV. The blog will focus on practical research workflows, choice modelling, environmental economics, and reproducible analysis.
+
+## Planned Topics
+
+- Cleaning and organising choice experiment data
+- Estimating and interpreting latent class choice models
+- Visualising willingness-to-pay distributions
+- Building reproducible Quarto research reports
+- Communicating coastal economics results to mixed audiences

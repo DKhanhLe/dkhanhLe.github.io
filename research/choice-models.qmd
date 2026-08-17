@@ -1,0 +1,24 @@
+---
+title: "Choice Modelling"
+description: "Discrete choice experiments, preference heterogeneity, and model interpretation."
+---
+
+## Overview
+
+Choice modelling helps estimate how people make trade-offs between attributes such as cost, environmental quality, access, risk, and management options. I am especially interested in models that make preference heterogeneity interpretable and useful for policy analysis.
+
+## Themes
+
+- Choice experiment design and survey data preparation
+- Multinomial logit, mixed logit, and latent class models
+- Willingness-to-pay estimation
+- Class membership covariates and heterogeneity
+- Communicating model assumptions and uncertainty
+
+## Tools
+
+Common tools include R, Apollo, tidyverse workflows, Quarto reporting, and reproducible project structures.
+
+## Related Work
+
+See the [choice modelling toolkit project](../projects/choice-modelling-toolkit/) and future blog posts for applied examples.

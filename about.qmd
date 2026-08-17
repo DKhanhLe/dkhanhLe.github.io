@@ -1,0 +1,40 @@
+---
+title: "About"
+image: images/khanh-le-portrait.jpeg
+---
+
+::: {.about-intro}
+::: {.about-photo}
+<img src="images/khanh-le-portrait.jpeg" alt="Portrait of Khanh Le">
+:::
+
+::: {.about-summary}
+## Profile
+
+I am Khanh Le, working at the intersection of environmental economics, choice modelling, and applied data analysis. My work focuses on turning research questions into transparent empirical workflows and communicating results clearly for academic and policy audiences.
+:::
+:::
+
+## Research Interests
+
+- Coastal management and environmental economics
+- Discrete choice experiments and stated preference methods
+- Preference heterogeneity and latent class modelling
+- Reproducible research workflows
+- Data visualisation for research communication
+
+## Technical Skills
+
+- **Programming and analysis:** R, Python, Stata
+- **Research workflows:** Quarto, Git, reproducible reporting
+- **Methods:** choice modelling, survey data analysis, econometrics, visualisation
+- **Communication:** technical writing, research summaries, presentations
+
+## CV
+
+[Download my CV](files/CV.pdf)
+
+## Contact
+
+- [GitHub](https://github.com/DKhanhLe)
+- [LinkedIn](https://www.linkedin.com/in/khanh-le-dinh-44048b240)

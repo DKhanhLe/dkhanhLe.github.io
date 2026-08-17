@@ -1,0 +1,22 @@
+---
+title: "Coastal Economics"
+description: "Research interests in coastal management, environmental valuation, and community preferences."
+---
+
+## Overview
+
+Coastal environments create important ecological, social, and economic value. My research interests include how communities value coastal protection, how policy choices shape environmental outcomes, and how evidence can support coastal management decisions.
+
+## Questions
+
+- How do people trade off cost, risk, ecosystem condition, and access in coastal policy?
+- Which management attributes matter most to different community groups?
+- How can environmental valuation support transparent decision-making?
+
+## Methods
+
+This work can combine stated preference surveys, discrete choice experiments, econometric modelling, spatial context, and clear visual summaries for decision makers.
+
+## Related Work
+
+See [Projects](../projects.qmd) for applied examples and reproducible workflows.

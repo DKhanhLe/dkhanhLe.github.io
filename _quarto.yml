@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Khanh Le"
+  favicon: images/favicon.svg
+  site-url: https://dkhanhle.github.io
+  description: "Personal website for Khanh Le: research, projects, writing, and CV."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu:
+          - text: Coastal Economics
+            href: research/coastal.qmd
+          - text: Choice Modelling
+            href: research/choice-models.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
+    tools:
+      - icon: github
+        href: https://github.com/DKhanhLe
+      - icon: linkedin
+        href: https://www.linkedin.com/in/khanh-le-dinh-44048b240
+  page-footer:
+    left: "© 2026 Khanh Le"
+    right:
+      - icon: github
+        href: https://github.com/DKhanhLe
+      - icon: linkedin
+        href: https://www.linkedin.com/in/khanh-le-dinh-44048b240
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: true
+
+execute:
+  freeze: auto

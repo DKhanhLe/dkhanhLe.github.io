@@ -1,0 +1,29 @@
+---
+title: "Choice Modelling Toolkit"
+description: "A reproducible template for preparing, estimating, and reporting discrete choice models."
+date: 2026-08-17
+categories:
+  - R
+  - Apollo
+  - Choice Modelling
+  - Environmental Economics
+---
+
+## Overview
+
+This starter project describes a reusable workflow for choice modelling research, from raw survey data through model estimation and reporting.
+
+## Research Question
+
+How can a choice experiment workflow be structured so that data cleaning, model estimation, willingness-to-pay calculations, and reporting remain transparent and reproducible?
+
+## Methods
+
+- Define a clear data dictionary and survey structure.
+- Prepare choice tasks and respondent-level covariates.
+- Estimate baseline and heterogeneity-focused models.
+- Report model fit, parameter signs, uncertainty, and willingness-to-pay measures.
+
+## Next Steps
+
+Replace this placeholder with a specific project, figures, model output, and repository links.

@@ -1,0 +1,25 @@
+---
+title: "Reproducible Research Workflow"
+description: "A Quarto-based structure for research notes, code, figures, and public-facing outputs."
+date: 2026-08-16
+categories:
+  - Quarto
+  - R
+  - Python
+  - Reproducible Research
+---
+
+## Overview
+
+This project outlines a practical structure for research analysis that keeps code, notes, figures, and written interpretation connected.
+
+## Workflow
+
+- Keep raw data separate from derived data.
+- Write analysis scripts that can be rerun from a clean session.
+- Use Quarto documents for interpretation, figures, and tables.
+- Freeze expensive computations when publishing public outputs.
+
+## Next Steps
+
+Add a concrete repository link, example report, or methods note when the workflow is ready to share.
