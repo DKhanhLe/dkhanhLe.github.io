@@ -8,7 +8,7 @@ project:
 website:
   title: "Khanh Le"
   favicon: images/favicon.svg
-  site-url: https://dkhanhle.github.io/khanhLe.github.io
+  site-url: https://dkhanhle.github.io
   description: "Personal website for Khanh Le: research, projects, writing, and CV."
   navbar:
     left:
