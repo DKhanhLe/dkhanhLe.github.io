@@ -1,12 +1,12 @@
 ---
 title: "About"
 description: "Profile, research interests, technical skills, and CV for Khanh Le."
-image: images/khanh-le-portrait.jpeg
+image: images/khanh-le-portrait.jpg
 ---
 
 ::: {.about-intro}
 ::: {.about-photo}
-<img src="images/khanh-le-portrait.jpeg" alt="Portrait of Khanh Le">
+<img src="images/khanh-le-portrait.jpg" alt="Portrait of Khanh Le">
 :::
 
 ::: {.about-summary}
